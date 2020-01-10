@@ -13,6 +13,7 @@
     "cmake-tools.command.cmake.buildWithTarget.title": "Build Target",
     "cmake-tools.command.cmake.setDefaultTarget.title": "Set Build Target",
     "cmake-tools.command.cmake.cleanConfigure.title": "Delete Cache and Reconfigure",
+	"cmake-tools.command.cmake.openConfiguration.title": "Open Configuration",
     "cmake-tools.command.cmake.outline.cleanConfigure.title": "Clean Reconfigure",
     "cmake-tools.command.cmake.clean.title": "Clean",
     "cmake-tools.command.cmake.cleanRebuild.title": "Clean Rebuild",

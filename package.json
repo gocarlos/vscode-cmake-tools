@@ -179,6 +179,15 @@
         "title": "%cmake-tools.command.cmake.cleanRebuild.title%"
       },
       {
+        "command": "cmake.openConfiguration",
+        "title": "%cmake-tools.command.cmake.openConfiguration.title%",
+        "category": "CMake"
+      },
+      {
+        "command": "cmake.outline.openConfiguration",
+        "title": "%cmake-tools.command.cmake.openConfiguration.title%"
+      },
+      {
         "command": "cmake.ctest",
         "title": "%cmake-tools.command.cmake.ctest.title%",
         "category": "CMake"
@@ -295,6 +304,9 @@
           "command": "cmake.cleanRebuild"
         },
         {
+          "command": "cmake.openConfiguration"
+        },
+        {
           "command": "cmake.ctest"
         },
         {
@@ -334,6 +346,10 @@
         },
         {
           "command": "cmake.outline.cleanRebuild",
+          "when": "never"
+        },
+        {
+          "command": "cmake.outline.openConfiguration",
           "when": "never"
         },
         {
@@ -401,6 +417,11 @@
         },
         {
           "command": "cmake.outline.cleanRebuild",
+          "when": "view == cmake.outline",
+          "group": "1_cmakeOutline"
+        },
+        {
+          "command": "cmake.outline.openConfiguration",
           "when": "view == cmake.outline",
           "group": "1_cmakeOutline"
         }
